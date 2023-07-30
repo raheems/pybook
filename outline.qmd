@@ -71,7 +71,6 @@ This is a tentative outline and may be updated as I build the teaching materials
 -   Logical operators (AND, OR NOT)
 -   Bit manipulation operators (&, \|)
 -   Operator precedence
--   
 
 ## Control Flow
 
@@ -127,9 +126,14 @@ This is a tentative outline and may be updated as I build the teaching materials
 -   Modules are collection of python scripts
 -   Packages are collection of modules
 
+
+![Course 2: Numpy for Scientific Computation](images/course-card-numpy-for-sci-comp.png) 
+
 # Course 2: Numpy for Scientific Computation
 
-## 
+## Outlines to be added
+
+
 
 # References {.unnumbered}
 

@@ -158,7 +158,7 @@
     "href": "outline.html#modules-and-packages",
     "title": "Outline",
     "section": "Modules and Packages",
-    "text": "Modules and Packages\n\nModules are collection of python scripts\nPackages are collection of modules"
+    "text": "Modules and Packages\n\nModules are collection of python scripts\nPackages are collection of modules\n\n\n\n\nCourse 2: Numpy for Scientific Computation"
   },
   {
     "objectID": "python.html",
@@ -222,5 +222,19 @@
     "title": "Chasing Python",
     "section": "How to contact me",
     "text": "How to contact me\nThis is a tentative outline and may be updated as I build the teaching materials. If you have any question, please reach out to me via Social media:\n\nfacebook.com/eraheem\nlinkedin.com/in/raheems\ntwitter.com/@eraheem\nyoutube.com/@eraheem"
+  },
+  {
+    "objectID": "outline.html#section-to-be-added",
+    "href": "outline.html#section-to-be-added",
+    "title": "Outline",
+    "section": "Section to be added",
+    "text": "Section to be added"
+  },
+  {
+    "objectID": "outline.html#outlines-to-be-added",
+    "href": "outline.html#outlines-to-be-added",
+    "title": "Outline",
+    "section": "Outlines to be added",
+    "text": "Outlines to be added"
   }
 ]
