@@ -1,3 +1,6 @@
+
+![Tentative Outline of TOpics](images/pybook-cover.png) 
+
 # Outline {.unnumbered}
 
 Chasing Python is a collection of courses at [dataskool.org](https://dataskool.org/courses/python){target="_blank"} taught by Dr. Enayetur Raheem.

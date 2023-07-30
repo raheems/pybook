@@ -39,6 +39,12 @@ format:
   pdf:
     documentclass: scrreprt
 
+website:
+  site-url: "https://pybook.eraheem.com"
+  twitter-card:
+    creator: "@eraheem"
+
+    
 bibliography: references.bib
 
 
