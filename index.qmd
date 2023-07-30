@@ -1,4 +1,5 @@
-# Why this book? {.unnumbered}
+
+##  Why this book? {.unnumbered}
 
 This book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data--data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.
 
@@ -18,18 +19,20 @@ I am actively writing this book. This is by no means a complete book. And it wil
 
 Thank you for your interest and thanks a bunch for your patience! 
 
-Since the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is http://pybook.eraheem.com. 
+Since the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is [https://pybook.eraheem.com](https://pybook.eraheem.com). 
 
 ## Have questions?
 
-Thank you for reading this book. I hope this will be beneficial for you. Take a look at the contents and browse through the book. If you feel anything important is missing or you would like me to cover additional topics, please feel free to let me know by submitting a feature request at the Issue queue located at https://github.com/raheems/pybook/issues
+Thank you for reading this book. I hope this will be beneficial for you. Take a look at the contents and browse through the book. If you feel anything important is missing or you would like me to cover additional topics, please feel free to let me know by submitting a feature request at the Issue queue located at [https://github.com/raheems/pybook/issues](https://github.com/raheems/pybook/issues)
 
-To submit a question to the github issue queue, you need an account at https://www.Github.com, which is absolutely free. if you are not familiar with github, it is used by millions of developers worldwide. That may sound scary to you. But I can assure you that no technical knowledge is needed to submit a request or raise a question or report an error using the Issue queue. 
+To submit a question to the github issue queue, you need an account at [https://www.Github.com](https://www.Github.com), which is absolutely free. if you are not familiar with github, it is used by millions of developers worldwide. That may sound scary to you. But I can assure you that no technical knowledge is needed to submit a request or raise a question or report an error using the Issue queue. 
 
-Just vist the Github website and sign up with your email if you do not have an account there. And submit your request. This way, I will be able to manage all the requests, and respond to your queries. This tools helps me to respond to you in an organized way. 
+If you have any question, please reach out to me via Social media:
 
-This is also the fastest way to get a response from me if you have any question or suggestion about this book. 
-
+-   [facebook.com/eraheem](https://facebook.com/eraheem){target="_blank"}
+-   [linkedin.com/in/raheems](https://linkedin.com/in/raheems){target="_blank"}
+-   [twitter.com/\@eraheem](https://twitter.com/@eraheem){target="_blank"}
+-   [youtube.com/\@eraheem](https://youtube.com/@eraheem){target="_blank"}
 
 
 ## Features {#features}

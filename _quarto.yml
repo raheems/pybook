@@ -6,7 +6,7 @@ book:
   subtitle: "Step into and run with Python for Data Science"
   author: "Enayetur Raheem"
   date:  "2023/07/24"
-  cover-image: cover.png
+  cover-image: images/course-card-python-bundle.png
 
   chapters:
     - index.qmd
@@ -33,6 +33,7 @@ highlight-style: pygments
 
 format:
   html:
+    toc: true
     theme: cosmo
   pdf:
     documentclass: scrreprt

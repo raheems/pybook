@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Enayetur Raheem">
-<meta name="dcterms.date" content="2023-07-24">
 
-<title>Chasing Python</title>
+<title>Chasing Python - PART 1: FINDING PYTHON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./outline.html" rel="next">
+<link href="./tba.html" rel="next">
+<link href="./outline.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Why this book?</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./python.html">PART 1: FINDING PYTHON</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why this book?</span></a>
   </div>
 </li>
@@ -113,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./python.html" class="sidebar-item-text sidebar-link">
+            <a href="./python.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">PART 1: FINDING PYTHON</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -208,44 +207,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#why-this-book" id="toc-why-this-book" class="nav-link active" data-scroll-target="#why-this-book">Why this book?</a></li>
-  <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in progress</a></li>
-  <li><a href="#have-questions" id="toc-have-questions" class="nav-link" data-scroll-target="#have-questions">Have questions?</a></li>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
-  <li><a href="#why_coding" id="toc-why_coding" class="nav-link" data-scroll-target="#why_coding">Benefits of coding</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chasing Python</h1>
-<p class="subtitle lead">Step into and run with Python for Data Science</p>
+<h1 class="title">PART 1: FINDING PYTHON</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Enayetur Raheem </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 24, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -253,64 +229,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-<section id="why-this-book" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="why-this-book">Why this book?</h2><p><img src="images/course-card-python-bundle.png" title="Chasing Python" class="quarto-cover-image img-fluid"></p>
-<p>This book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data–data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.</p>
-<p>I have been programming with R for over 23 years now. That’s a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 7 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerious kinds of problems with it is much more diverse and broad than my experience with Python and some of its commonly used libraries.</p>
-<p>s written by someone who is not a trained computer scientist. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, like every teacher, I feel I have something to give back.</p>
-<p>The goals of this book is the following:</p>
-<ul>
-<li>a self-learner’s guide to data science with Python</li>
-<li>sequentially organized–you have to start from the beginning and gradually grow with it</li>
-<li></li>
-</ul>
-</section>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in progress</h2>
-<p>I am actively writing this book. This is by no means a complete book. And it will never likely be complete as it will be actively developed, tested, re-written and deployed!</p>
-<p>Thank you for your interest and thanks a bunch for your patience!</p>
-<p>Since the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is <a href="https://pybook.eraheem.com">https://pybook.eraheem.com</a>.</p>
-</section>
-<section id="have-questions" class="level2">
-<h2 class="anchored" data-anchor-id="have-questions">Have questions?</h2>
-<p>Thank you for reading this book. I hope this will be beneficial for you. Take a look at the contents and browse through the book. If you feel anything important is missing or you would like me to cover additional topics, please feel free to let me know by submitting a feature request at the Issue queue located at <a href="https://github.com/raheems/pybook/issues">https://github.com/raheems/pybook/issues</a></p>
-<p>To submit a question to the github issue queue, you need an account at <a href="https://www.Github.com">https://www.Github.com</a>, which is absolutely free. if you are not familiar with github, it is used by millions of developers worldwide. That may sound scary to you. But I can assure you that no technical knowledge is needed to submit a request or raise a question or report an error using the Issue queue.</p>
-<p>If you have any question, please reach out to me via Social media:</p>
-<ul>
-<li><a href="https://facebook.com/eraheem" target="_blank">facebook.com/eraheem</a></li>
-<li><a href="https://linkedin.com/in/raheems" target="_blank">linkedin.com/in/raheems</a></li>
-<li><a href="https://twitter.com/@eraheem" target="_blank">twitter.com/@eraheem</a></li>
-<li><a href="https://youtube.com/@eraheem" target="_blank">youtube.com/@eraheem</a></li>
-</ul>
-</section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features</h2>
-<p>There are numerious books, websites, tutorials, youtube videos, courses, on Python! Yet, this is another book that I think is unique. How so? Here’s what I think about this book.</p>
-<ul>
-<li><p>This book is specifically about using R for research in medical and clinical fields. Therefore, the examples in this book will be mostly if not all from the medical field.</p></li>
-<li><p>This book is straight to the point and very specific without too much going into the nitty gritty of the technicality.</p></li>
-<li><p>This book focuses on data analysis and report generation. As such, this book is particularly suitable for researchers in all fields, particularly in medical field.</p></li>
-<li><p>Tools used in this book are the most modern and up to date. The old-style programming (base R style of coding has a steep learning curve whereas the new <code>tidyverse</code> suite of libraries have made this much easier and provides flexible framework for quick data analysis and producing publication quality graphics and tables.</p></li>
-</ul>
-</section>
-<section id="why_coding" class="level2">
-<h2 class="anchored" data-anchor-id="why_coding">Benefits of coding</h2>
-<p>In this book, I will be teaching Python by typing Python codes and never copying and pasting from a complete notebook or script.</p>
-<p>You might be thinking how writing code can beneficial when we can just copy and paste it and run it. Even better, you would think, why not just use ChatGPT?</p>
-<p>I must say, if you want to learn and be fluent in Python, do not copy codes, do not use ChatGPT (except to inqure why you code shows error).</p>
-<ul>
-<li>The biggest benefit of wiring code is reproducibility.</li>
-</ul>
-<blockquote class="blockquote">
-<p>Even if you make a mistake, the mistake should be reproducible</p>
-</blockquote>
-<ul>
-<li>By writing codes, you can easily try different things as data analysis involves a lot of trial and error and explorations.</li>
-</ul>
+<p>In this section we gently introduce Python fundamentals. But first, we have to find the Python.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -548,10 +469,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./outline.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Outline</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./outline.html" class="pagination-link">
-        <span class="nav-page-text">Outline</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./tba.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">TBA</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

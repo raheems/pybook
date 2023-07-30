@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Chasing Python",
     "section": "",
-    "text": "Why this book?\nThis book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data–data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.\nI have been programming with R for over 23 years now. That’s a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 7 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerious kinds of problems with it is much more diverse and broad than my experience with Python and some of its commonly used libraries.\ns written by someone who is not a trained computer scientist. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, like every teacher, I feel I have something to give back.\nThe goals of this book is the following:"
+    "text": "Work in progress\nThis book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data–data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.\nI have been programming with R for over 23 years now. That’s a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 7 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerious kinds of problems with it is much more diverse and broad than my experience with Python and some of its commonly used libraries.\ns written by someone who is not a trained computer scientist. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, like every teacher, I feel I have something to give back.\nThe goals of this book is the following:"
   },
   {
     "objectID": "index.html#work-in-progress",
     "href": "index.html#work-in-progress",
     "title": "Chasing Python",
     "section": "Work in progress",
-    "text": "Work in progress\nI am actively writing this book. This is by no means a complete book. And it will never likely be complete as it will be actively developed, tested, re-written and deployed!\nThank you for your interest and thanks a bunch for your patience!\nSince the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is http://pybook.eraheem.com."
+    "text": "Work in progress\nI am actively writing this book. This is by no means a complete book. And it will never likely be complete as it will be actively developed, tested, re-written and deployed!\nThank you for your interest and thanks a bunch for your patience!\nSince the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is https://pybook.eraheem.com."
   },
   {
     "objectID": "index.html#have-questions",
     "href": "index.html#have-questions",
     "title": "Chasing Python",
     "section": "Have questions?",
-    "text": "Have questions?\nThank you for reading this book. I hope this will be beneficial for you. Take a look at the contents and browse through the book. If you feel anything important is missing or you would like me to cover additional topics, please feel free to let me know by submitting a feature request at the Issue queue located at https://github.com/raheems/pybook/issues\nTo submit a question to the github issue queue, you need an account at https://www.Github.com, which is absolutely free. if you are not familiar with github, it is used by millions of developers worldwide. That may sound scary to you. But I can assure you that no technical knowledge is needed to submit a request or raise a question or report an error using the Issue queue.\nJust vist the Github website and sign up with your email if you do not have an account there. And submit your request. This way, I will be able to manage all the requests, and respond to your queries. This tools helps me to respond to you in an organized way.\nThis is also the fastest way to get a response from me if you have any question or suggestion about this book."
+    "text": "Have questions?\nThank you for reading this book. I hope this will be beneficial for you. Take a look at the contents and browse through the book. If you feel anything important is missing or you would like me to cover additional topics, please feel free to let me know by submitting a feature request at the Issue queue located at https://github.com/raheems/pybook/issues\nTo submit a question to the github issue queue, you need an account at https://www.Github.com, which is absolutely free. if you are not familiar with github, it is used by millions of developers worldwide. That may sound scary to you. But I can assure you that no technical knowledge is needed to submit a request or raise a question or report an error using the Issue queue.\nIf you have any question, please reach out to me via Social media:\n\nfacebook.com/eraheem\nlinkedin.com/in/raheems\ntwitter.com/@eraheem\nyoutube.com/@eraheem"
   },
   {
     "objectID": "index.html#features",
@@ -33,5 +33,194 @@
     "title": "Chasing Python",
     "section": "Benefits of coding",
     "text": "Benefits of coding\nIn this book, I will be teaching Python by typing Python codes and never copying and pasting from a complete notebook or script.\nYou might be thinking how writing code can beneficial when we can just copy and paste it and run it. Even better, you would think, why not just use ChatGPT?\nI must say, if you want to learn and be fluent in Python, do not copy codes, do not use ChatGPT (except to inqure why you code shows error).\n\nThe biggest benefit of wiring code is reproducibility.\n\n\nEven if you make a mistake, the mistake should be reproducible\n\n\nBy writing codes, you can easily try different things as data analysis involves a lot of trial and error and explorations."
+  },
+  {
+    "objectID": "outline.html",
+    "href": "outline.html",
+    "title": "Outline",
+    "section": "",
+    "text": "Course 1: Finding Python for Data Science"
+  },
+  {
+    "objectID": "outline.html#why-this-course",
+    "href": "outline.html#why-this-course",
+    "title": "Outline",
+    "section": "Why this course?",
+    "text": "Why this course?\n\nMy journey to Python\nImportance of Python in Artificial Intelligence\nR or Python?\n\nAnything statistical in nature: use R\nAnything machine learning: use Python"
+  },
+  {
+    "objectID": "outline.html#finding-python",
+    "href": "outline.html#finding-python",
+    "title": "Outline",
+    "section": "Finding Python",
+    "text": "Finding Python\n\nWhere do you find Python?\nShow examples of python script"
+  },
+  {
+    "objectID": "outline.html#gettinginstalling-python",
+    "href": "outline.html#gettinginstalling-python",
+    "title": "Outline",
+    "section": "Getting/Installing Python",
+    "text": "Getting/Installing Python\n\nUsing Google Colab\nUsing Anaconda python distribution\n\ninstalling in Windows\ninstalling in Mac"
+  },
+  {
+    "objectID": "outline.html#python-fundamentals",
+    "href": "outline.html#python-fundamentals",
+    "title": "Outline",
+    "section": "Python Fundamentals",
+    "text": "Python Fundamentals\n\nExample of a python program (.py script)\nRunning a python program\n\n.py script\nJupyter notebook"
+  },
+  {
+    "objectID": "outline.html#variables-and-data-types",
+    "href": "outline.html#variables-and-data-types",
+    "title": "Outline",
+    "section": "Variables and Data Types",
+    "text": "Variables and Data Types\n\nVariable and Expression\nNumerical data type (integer, float)\nString data type"
+  },
+  {
+    "objectID": "outline.html#different-types-of-operators",
+    "href": "outline.html#different-types-of-operators",
+    "title": "Outline",
+    "section": "Different types of operators",
+    "text": "Different types of operators\n\nAssignment operators (=, +=)\nArithmetic operators (additio, subtraction)\nComparison operators (greater than, less than)\nLogical operators (AND, OR NOT)\nBit manipulation operators (&, |)\nOperator precedence"
+  },
+  {
+    "objectID": "outline.html#control-flow",
+    "href": "outline.html#control-flow",
+    "title": "Outline",
+    "section": "Control Flow",
+    "text": "Control Flow\n\nwhile, if, else statements\ncontinue and break statements"
+  },
+  {
+    "objectID": "outline.html#reading-input-data",
+    "href": "outline.html#reading-input-data",
+    "title": "Outline",
+    "section": "Reading Input Data",
+    "text": "Reading Input Data\n\nOpening a file and reading it\nStoring the data\nOutputing the data"
+  },
+  {
+    "objectID": "outline.html#data-structures",
+    "href": "outline.html#data-structures",
+    "title": "Outline",
+    "section": "Data Structures",
+    "text": "Data Structures\n\nLists\nTuples\nDictionaries\nSets"
+  },
+  {
+    "objectID": "outline.html#working-with-lists",
+    "href": "outline.html#working-with-lists",
+    "title": "Outline",
+    "section": "Working with Lists",
+    "text": "Working with Lists\n\nFundamental features of list data structure"
+  },
+  {
+    "objectID": "outline.html#working-with-tuples",
+    "href": "outline.html#working-with-tuples",
+    "title": "Outline",
+    "section": "Working with Tuples",
+    "text": "Working with Tuples\n\nFundamental features of tuple data structure"
+  },
+  {
+    "objectID": "outline.html#workign-with-dictionaries",
+    "href": "outline.html#workign-with-dictionaries",
+    "title": "Outline",
+    "section": "Workign with Dictionaries",
+    "text": "Workign with Dictionaries\n\nFundamental features of dictionary data structure"
+  },
+  {
+    "objectID": "outline.html#working-with-sets",
+    "href": "outline.html#working-with-sets",
+    "title": "Outline",
+    "section": "Working with Sets",
+    "text": "Working with Sets\n\nFundamental features of set data structure"
+  },
+  {
+    "objectID": "outline.html#performing-operations-iteratively",
+    "href": "outline.html#performing-operations-iteratively",
+    "title": "Outline",
+    "section": "Performing operations iteratively",
+    "text": "Performing operations iteratively\n\nthe famous for loop"
+  },
+  {
+    "objectID": "outline.html#understanding-functions",
+    "href": "outline.html#understanding-functions",
+    "title": "Outline",
+    "section": "Understanding Functions",
+    "text": "Understanding Functions\n\nIntroduce function using day-to-day example\nWhat is function in Python\nWhy Function is even needed"
+  },
+  {
+    "objectID": "outline.html#object-oriented-programming-oop",
+    "href": "outline.html#object-oriented-programming-oop",
+    "title": "Outline",
+    "section": "Object Oriented Programming (OOP)",
+    "text": "Object Oriented Programming (OOP)\n\nConcept of Objects and Classes\nDifference between functional programming and OOP"
+  },
+  {
+    "objectID": "outline.html#modules-and-packages",
+    "href": "outline.html#modules-and-packages",
+    "title": "Outline",
+    "section": "Modules and Packages",
+    "text": "Modules and Packages\n\nModules are collection of python scripts\nPackages are collection of modules"
+  },
+  {
+    "objectID": "python.html",
+    "href": "python.html",
+    "title": "PART 1: FINDING PYTHON",
+    "section": "",
+    "text": "In this section we gently introduce Python fundamentals. But first, we have to find the Python."
+  },
+  {
+    "objectID": "tba.html",
+    "href": "tba.html",
+    "title": "1  TBA",
+    "section": "",
+    "text": "Contents in this section will be added in due course. Please stay tuned.\n\nReferences"
+  },
+  {
+    "objectID": "outline.html#finding-python-1",
+    "href": "outline.html#finding-python-1",
+    "title": "Outline",
+    "section": "Finding Python",
+    "text": "Finding Python\n\nWhere do you find Python?\nShow examples of python script"
+  },
+  {
+    "objectID": "outline.html#books-in-this-bundle",
+    "href": "outline.html#books-in-this-bundle",
+    "title": "Outline",
+    "section": "Books in this bundle",
+    "text": "Books in this bundle\n\nFinding Python (Python basics for data science)\nNumpy for scientific computation\nPandas for data wrangling\nMatplotlib and Seaborn for data visualization\nScikit-Learn for Machine Learning"
+  },
+  {
+    "objectID": "outline.html#how-to-contact",
+    "href": "outline.html#how-to-contact",
+    "title": "Outline",
+    "section": "How to contact",
+    "text": "How to contact\nThis is a tentative outline and may be updated as I build the teaching materials. If you have any question, please reach out to me via Social media:\n\nfacebook.com/eraheem\nlinkedin.com/in/raheems\ntwitter.com/@eraheem\nyoutube.com/@eraheem\n\n\n\n\nCourse 1: Finding Python for Data Science"
+  },
+  {
+    "objectID": "outline.html#how-to-contact-me",
+    "href": "outline.html#how-to-contact-me",
+    "title": "Outline",
+    "section": "How to contact me",
+    "text": "How to contact me\nThis is a tentative outline and may be updated as I build the teaching materials. If you have any question, please reach out to me via Social media:\n\nfacebook.com/eraheem\nlinkedin.com/in/raheems\ntwitter.com/@eraheem\nyoutube.com/@eraheem\n\n\n\n\nCourse 1: Finding Python for Data Science"
+  },
+  {
+    "objectID": "index.html#work-in-progress-1",
+    "href": "index.html#work-in-progress-1",
+    "title": "Chasing Python",
+    "section": "Work in progress",
+    "text": "Work in progress\nI am actively writing this book. This is by no means a complete book. And it will never likely be complete as it will be actively developed, tested, re-written and deployed!\nThank you for your interest and thanks a bunch for your patience!\nSince the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is http://pybook.eraheem.com."
+  },
+  {
+    "objectID": "index.html#why-this-book",
+    "href": "index.html#why-this-book",
+    "title": "Chasing Python",
+    "section": "Why this book?",
+    "text": "Why this book?\nThis book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data–data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.\nI have been programming with R for over 23 years now. That’s a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 7 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerious kinds of problems with it is much more diverse and broad than my experience with Python and some of its commonly used libraries.\ns written by someone who is not a trained computer scientist. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, like every teacher, I feel I have something to give back.\nThe goals of this book is the following:\n\na self-learner’s guide to data science with Python\nsequentially organized–you have to start from the beginning and gradually grow with it"
+  },
+  {
+    "objectID": "index.html#how-to-contact-me",
+    "href": "index.html#how-to-contact-me",
+    "title": "Chasing Python",
+    "section": "How to contact me",
+    "text": "How to contact me\nThis is a tentative outline and may be updated as I build the teaching materials. If you have any question, please reach out to me via Social media:\n\nfacebook.com/eraheem\nlinkedin.com/in/raheems\ntwitter.com/@eraheem\nyoutube.com/@eraheem"
   }
 ]
