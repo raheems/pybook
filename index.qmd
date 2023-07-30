@@ -3,15 +3,15 @@
 
 This book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data--data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.
 
-I have been programming with R for over 23 years now. That's a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 7 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerious kinds of problems with it is much more diverse and broad than my experience with Python and some of its commonly used libraries. 
+I have been programming with R for over 23 years now. That's a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 8 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerous kinds of problems with it is much more diverse and broad than my experience with Python. 
 
-s written by someone who is not a trained computer scientist. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, like every teacher, I feel I have something to give back. 
+I am not a trained computer scientist or a software engineer. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, I feel that I have something to give back. 
 
 The goals of this book is the following:
 
 - a self-learner's guide to data science with Python
 - sequentially organized--you have to start from the beginning and gradually grow with it
-- 
+
 
 ## Work in progress
 

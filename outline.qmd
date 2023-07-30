@@ -1,5 +1,5 @@
 
-![Tentative Outline of TOpics](images/pybook-cover.png) 
+![Tentative Outline of Topics](images/pybook-cover.png) 
 
 # Outline {.unnumbered}
 
