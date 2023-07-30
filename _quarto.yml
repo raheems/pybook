@@ -43,7 +43,7 @@ website:
   site-url: "https://pybook.eraheem.com"
   twitter-card:
     creator: "@eraheem"
-
+  google-analytics: "G-FLN6ZZ8SZZ"
 body-header: | 
   This is work in progress. 
 
