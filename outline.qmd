@@ -4,7 +4,7 @@ Chasing Python is a collection of courses at [dataskool.org](https://dataskool.o
 
 ## Books in this bundle 
 
-1. Finding Python (Python basics for data science)
+1. Step into Python (Python basics for data science)
 1. Numpy for scientific computation
 1. Pandas for data wrangling
 1. Matplotlib and Seaborn for data visualization
@@ -21,9 +21,9 @@ This is a tentative outline and may be updated as I build the teaching materials
 
 
 
-![Course 1: Finding Python for Data Science](images/python-course-card.png) 
+![Course 1: Step into Python for Data Science](images/python-course-card.png) 
 
-# Course 1: Finding Python for Data Science
+# Course 1: Step into Python for Data Science
 
 
 
@@ -51,7 +51,7 @@ This is a tentative outline and may be updated as I build the teaching materials
 
 -   Example of a python program (.py script)
 -   Running a python program
-    -   .py script
+    -   `.py` script
     -   Jupyter notebook
 
 ## Variables and Data Types
