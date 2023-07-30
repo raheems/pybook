@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "Chasing Python"
+  subtitle: "Step into and run with Python for Data Science"
+  author: "Enayetur Raheem"
+  date:  "2023/07/24"
+  cover-image: cover.png
+
+  chapters:
+    - index.qmd
+    - outline.qmd
+
+    - part: python.qmd
+      chapters:
+        - tba.qmd
+    - part: numpy.qmd
+      chapters:
+        - tba.qmd
+    - part: pandas.qmd
+      chapters: 
+        - tba.qmd
+    - part: viz.qmd
+      chapters:
+        - tba.qmd
+    - part: sklearn.qmd
+      chapters:
+        - tba.qmd
+    - references.qmd
+
+highlight-style: pygments
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+bibliography: references.bib
+
+

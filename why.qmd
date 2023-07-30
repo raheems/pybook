@@ -1,0 +1,10 @@
+
+# Why this course?
+
+- My journey to Python
+- Importance of Python in Artificial Intelligence
+- R or Python? 
+  - Anything statistical in nature: use R
+  - Anything machine learning: use Python
+
+

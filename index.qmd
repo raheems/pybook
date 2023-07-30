@@ -1,0 +1,60 @@
+# Why this book? {.unnumbered}
+
+This book serves as a companion to Statistics for Data Science with Python. Yes, you read it right. I wanted to teach a Statistics course with Python. However, many students, including most statisticians do not use Python in their day to day job. Therefore, there is a void to fill. A book just to learn Python for Data Science. By data science I mean all things related to data--data analysis, data wrangling, data science, experimenting with data, causal inference, and of course, machine learning and deep learning.
+
+I have been programming with R for over 23 years now. That's a long time to understand a language and feel comfortable using it. I do. In contrast, my experience with Python is little over 7 years now (2023). I can certainly feel that I do not understand Python as I understand R. This is because the time I spent with R and solved numerious kinds of problems with it is much more diverse and broad than my experience with Python and some of its commonly used libraries. 
+
+s written by someone who is not a trained computer scientist. However, with over 20 years analytic experience, and going through the journey myself and teaching hundreds of students, like every teacher, I feel I have something to give back. 
+
+The goals of this book is the following:
+
+- a self-learner's guide to data science with Python
+- sequentially organized--you have to start from the beginning and gradually grow with it
+- 
+
+## Work in progress
+
+I am actively writing this book. This is by no means a complete book. And it will never likely be complete as it will be actively developed, tested, re-written and deployed!
+
+Thank you for your interest and thanks a bunch for your patience! 
+
+Since the book is actively being updated, that means, the organization of the contents is not finalized. As such, bookmarks would not be stable at this point. I would advise not to bookmark any chapter or section. Instead, bookmark the website of the book which is http://pybook.eraheem.com. 
+
+## Have questions?
+
+Thank you for reading this book. I hope this will be beneficial for you. Take a look at the contents and browse through the book. If you feel anything important is missing or you would like me to cover additional topics, please feel free to let me know by submitting a feature request at the Issue queue located at https://github.com/raheems/pybook/issues
+
+To submit a question to the github issue queue, you need an account at https://www.Github.com, which is absolutely free. if you are not familiar with github, it is used by millions of developers worldwide. That may sound scary to you. But I can assure you that no technical knowledge is needed to submit a request or raise a question or report an error using the Issue queue. 
+
+Just vist the Github website and sign up with your email if you do not have an account there. And submit your request. This way, I will be able to manage all the requests, and respond to your queries. This tools helps me to respond to you in an organized way. 
+
+This is also the fastest way to get a response from me if you have any question or suggestion about this book. 
+
+
+
+## Features {#features}
+
+There are numerious books, websites, tutorials, youtube videos, courses, on Python! Yet, this is another book that I think is unique. How so? Here's what I think about this book.
+
+- This book is specifically about using R for research in medical and clinical fields. Therefore, the examples in this book will be mostly if not all from the medical field.
+
+- This book is straight to the point and very specific without too much going into the nitty gritty of the technicality.
+
+- This book focuses on data analysis and report generation. As such, this book is particularly suitable for researchers in all fields, particularly in medical field.
+
+- Tools used in this book are the most modern and up to date. The old-style programming (base R style of coding has a steep learning curve whereas the new `tidyverse` suite of libraries have made this much easier and provides flexible framework for quick data analysis and producing publication quality graphics and tables. 
+
+## Benefits of coding {#why_coding}
+
+In this book, I will be teaching Python by typing Python codes and never copying and pasting from a complete notebook or script.  
+
+You might be thinking how writing code can beneficial when we can just copy and paste it and run it. Even better, you would think, why not just use ChatGPT? 
+
+I must say, if you want to learn and be fluent in Python, do not copy codes, do not use ChatGPT (except to inqure why you code shows error).  
+
+- The biggest benefit of wiring code is reproducibility. 
+
+> Even if you make a mistake, the mistake should be reproducible
+
+- By writing codes, you can easily try different things as data analysis involves a lot of trial and error and explorations. 
+

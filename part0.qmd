@@ -1,0 +1,9 @@
+# PART 0: OUTLINE
+
+Chasing Python is a collection of courses at [dataskool.org](https://dataskool.org/courses/python){target="_blank"} taught by Dr. Enayetur Raheem.
+
+1. Finding Python (Python basics for data science)
+1. Numpy for scientific computation
+1. Pandas for data wrangling
+1. Matplotlib and Seaborn for data visualization
+1. Scikit-Learn for Machine Learning

@@ -1,0 +1,122 @@
+
+# Outline {.unnumbered}
+
+# Course 1: Finding Python for Data Science 
+
+This is a tentative outline and may be updated as I build the teaching materials.
+If you have any question, please reach out to me via Social media:
+
+- [facebook.com/eraheem](https://facebook.com/eraheem){target="_blank"}
+- [linkedin.com/in/raheems](https://linkedin.com/in/raheems){target="_blank"}
+- [twitter.com/\@eraheem](https://twitter.com/@eraheem){target="_blank"}
+- [youtube.com/\@eraheem](https://youtube.com/@eraheem){target="_blank"}
+
+## Why this course?
+
+- My journey to Python
+- Importance of Python in Artificial Intelligence
+- R or Python? 
+  - Anything statistical in nature: use R
+  - Anything machine learning: use Python
+
+## Finding Python
+
+- Where do you find Python?
+- Show examples of python script
+
+## Getting/Installing Python
+
+- Using Google Colab
+- Using Anaconda python distribution
+  - installing in Windows
+  - installing in Mac
+
+
+## Python Fundamentals
+
+- Example of a python program (.py script)
+- Running a python program
+  - .py script
+  - Jupyter notebook
+  
+## Variables and Data Types
+
+- Variable and Expression
+- Numerical data type (integer, float)
+- String data type
+
+## Different types of operators
+
+  - Assignment operators (=, +=)
+  - Arithmetic operators (additio, subtraction)
+  - Comparison operators (greater than, less than)
+  - Logical operators (AND, OR NOT)
+  - Bit manipulation operators (&, |)
+  - Operator precedence
+- 
+
+## Control Flow
+
+- `while`, `if`, `else` statements
+- `continue` and `break` statements
+
+
+## Reading Input Data
+
+- Opening a file and reading it
+- Storing the data
+- Outputing the data
+  
+## Data Structures
+
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+
+## Working with Lists
+
+- Fundamental features of `list` data structure
+
+## Working with Tuples
+
+- Fundamental features of `tuple` data structure
+
+
+## Workign with Dictionaries
+
+- Fundamental features of `dictionary` data structure
+
+## Working with Sets
+
+- Fundamental features of `set` data structure
+
+## Performing operations iteratively
+
+- the famous `for` loop
+
+## Understanding Functions
+
+- Introduce function using day-to-day example
+- What is function in Python
+- Why Function is even needed
+
+## Object Oriented Programming (OOP) 
+
+- Concept of Objects and Classes
+- Difference between functional programming and OOP
+
+## Modules and Packages
+
+- Modules are collection of python scripts
+- Packages are collection of modules
+
+
+# Course 2: Numpy for Scientific Computation
+
+##
+
+# References {.unnumbered}
+
+::: {#refs}
+:::

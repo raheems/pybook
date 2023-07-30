@@ -1,0 +1,21 @@
+# Finding Python
+
+Before working with Python, we need to fine one! Thankfully, its easy to find one. Its all over the internet. We can use one that is available freely on Google Colab, or we can install it on our PC/Mac.
+
+## Getting Python Locally
+
+The easiest option is to install a python distribution. A distribution is software package much like any software you install on your computer. A widely used distribution is the [Anaconda](https://www.anaconda.com/download) python distribution. Clicking the link will take you to the download page. You can download the distribution for your operating system.
+
+For me, it automatically detected Mac OS. See the screenshot below.
+
+[![Anaconda Python distribution download page](images/anaconda_download_page.png){fig-alt="Anaconda Python Distribution Download"}](https://www.anaconda.com/download){target="_blank"}
+
+## Getting Python on Google Colaboratory
+
+Google Colaboratory is popularly known as Google Colab. 
+
+In this setup, you do not have to install anything on your computer. All you need is a Google's gmail account and internet connection. Please note, to work with Google Colab, you must have uninterrupted internet connectivity as you will be working over the internet. If you do not have have internet, or the connection is disrupted, your connection to the Colab will also be disrupted.
+
+Go to Google Colaboratory and start using it!
+
+[![Google Colaboratory access page](images/google_colab_home.png){fig-alt="Google Colaboratory"}](https://colab.research.google.com/){target="_blank"}

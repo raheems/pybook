@@ -1,0 +1,3 @@
+# PART 1: FINDING PYTHON
+
+In this section we gently introduce Python fundamentals. But first, we have to find the Python.

@@ -1,0 +1,286 @@
+# Step into R
+
+Here we begin..
+
+Below is a tentative outline, which will be updated as I complete the sections. Please check back often for updates.
+
+## Setting up the Expectations
+
+Learning a new program can be challenging and intimidating. If you have never programmed before, you may or may not feel it. However, if you have programmed in another language, you may feel a little uncomfortable at time because how R process certain aspects. 
+
+Whatever may be your background, let keep the following principle in mind
+
+- You will face challenges as many things will go wrong
+- Have patience. Things will turn in your favor. It's only a matter of time
+- Its a journey, and not a sprint. You have to pursue for a long time to achieve mastery or even a general understanding of the language. And this is true for any language. Think of who taught you your mother tongue? And exactly how long did it take to learn?
+
+## What is R?
+
+R is a language and programming environment, predominantly used by researchers, academicians, students in quantitative disciplines, and pharmaceutical companies. Note, I did not mention software engineers. Because they generally do not use R in their workflow. 
+
+### Who should learn R?
+
+Anyone involved in research activity where statistical analysis is necessary. R is best in this regard, hands down. With R, you can create a reproducible workflow producing the best possible outputs in a publication-ready format. As of writing this book, no other system can provide as much functionality off-the-shelf.
+
+### Should data scientists learn R?
+
+It depends on how you define data scientist. If 'science' part of data science is important to you, then R would be the first choice. On the other hand, if machine learning or algorithms primarily developed for prediction purposes, my personal recommendation would be to use Python based solutions.
+
+To summarize, a language should be chosen based on the deliverable. Be language agnostic, use the tool that does the job best. However, sometimes you may have to use one or the other because the organization and their IT setup supports one particular language.
+
+## R Language Basics
+
+- Data types
+- Math operations
+- Matrix, list
+  - Commonly used functions 
+    - `apply`, `lapply` family of functions
+ 
+### Interacting with R
+
+Once R is installed in your system, you can directly execute programs and computations by 'submitting' them to the R engine.
+
+In this book, we will use Rstudio (which will be renamed to POSIT at sometime in the future) to interact with R. That is, we won't submit code to R ourselves but we will use the RStudio IDE to do that for us. We will instead focus or coding and keeping things organized in a nicer way.
+
+#### Mathematical operations
+
+To get started with R, what better way to introduce to R but to start using it. And we use it as what we are most familiar with-- as a calculator. 
+
+On the R console, type `1 + 1` and it will print the result of adding 1 and 1. Let's see it in action.
+
+```{r}
+1 + 2
+```
+
+Similarly, for subtraction, multiplication, and division
+
+```{r}
+# Showing a subtraction operation
+ 10 - 2
+
+# Showing a multiplication operation
+10 * 2
+
+# Demonstrating division operation
+10 / 2
+
+# Exponentiation
+exp(2)
+
+# Log operation (natural logarithm or ln)
+log(exp(2))
+
+# Log operation (10 base)
+log10(10)
+
+```
+
+#### Exercise
+
+1. What would be output of the following operation?
+
+```{r, eval=FALSE}
+(10 + 20) * 2.5 / (exp(1))
+
+paste("The sum of ", 1, ' and ', 2, ' is ', 1+2)
+```
+
+2. 
+
+
+## Data Types
+
+R's data types are a bit complex. To keep it simple, everything in R can be thought of as vector. Vectors are of two kinds.
+
+- Atomic vector (all elements must be of same type)
+- List (elements can be of different types)
+
+
+
+```{r, echo = FALSE}
+
+library(DiagrammeR)
+
+mermaid("
+graph LR
+  A[Atomic] -->  B[Vector]
+  C[List] --> B[Vector]
+")
+```
+Atomic vectors are of several types as shown in the diagram below.
+```{r, echo = FALSE}
+
+library(DiagrammeR)
+
+mermaid("
+graph LR
+I(Date) --> G[Double]
+H(Factor) --> F[Integer]
+F[Integer] --> A[Atomic]
+G[Double] --> A[Atomic]
+  A[Atomic] -->  B[Vector]
+  C[Logical] --> A[Atomic]
+  E[Character] --> A[Atomic]
+")
+```
+
+
+### Atomic Vector
+
+Before discussing vectors, we first need to understand the term `scalar`. A scalar is a single value or an individual value. For example, age of a single individual when collected for recording is a scalar. But age of several individuals collected together can form a vector.
+
+In most practical situations we work with a vector, which is a collection of scalars of the same type.
+
+In R, we create a collection of values into a vector by the `c()` function. The `c` in `c()` is short for *combine.*
+
+Let us create four types of atomic vectors. 
+
+```{r}
+
+logical_vec = c(TRUE, TRUE, F, T)
+double_vec = c(1, 2, 10, 5)
+integer_vec = c(1L, 2L, 10L, 5L)
+character_vec = c('Dhaka', 'New York', 'Anything')
+
+```
+
+To check the type of each vector, use the `typeof()` function.
+
+```{r}
+
+typeof(logical_vec)
+typeof(double_vec)
+typeof(integer_vec)
+typeof(character_vec)
+
+```
+
+```{r}
+
+as.integer(10L/3L)
+
+```
+
+### Matrix
+
+Matrices are atomic vectors but with attributes. For example, matrices have dimensions, which can be viewed with the `dim()` function. In the example below, an atomic vector is assinged a dimension attribute of $2 \times 2$ and we read it as two-by-two. This means there are two rows and two columns of this object.
+
+```{r}
+a = c(1, 2, 3, 4)
+dim(a) = c(2,2)
+a
+```
+
+We can also create matrix using `matrix()` function as follows
+
+```{r}
+a = matrix(1:10, nrow = 2, ncol = 5)
+a
+
+```
+
+Dimension of this matrix is `r dim(a)`, which means there are `r dim(a)[1]` rows and `r dim(a)[2]` columns.
+
+To learn more about an R function, use the question mark (?) before the function name. For example, to learn about `matrix` function, type `?matrix` on the R console. The space between `?` and `matrix` is also permitted--i.e., `? matrix` (notice the space in between) will display the documentation about `matrix`.
+
+
+### List
+
+List is also a vector but it is a collection of one or more atomic vectors. To create a list, we combine one or more atomic vectors and wrap it around the function `list()`
+
+```{r}
+
+a = list(
+  1:10,
+  c(T, F, F)
+)
+a
+
+```
+Type of a is list as shown below.
+
+```{r}
+typeof(a)
+```
+
+Elements of a list can be named.
+
+```{r}
+a = list(
+  series = 1:10,
+  series2 = c(1, 10),
+  tf = c(T, F, F)
+)
+
+a
+
+```
+
+To view the structure of an R object, use the `str()` function. 
+
+```{r}
+str(a)
+```
+
+### Exercise
+
+Put some quiz questions about the data types discussed so far. Use the list below for guidance. 
+
+- Atomic vector
+- Scalar
+- Integer, Logical, Character, Double
+- List
+- Matrix
+- Dimension of a matrix
+
+
+
+## Data Frame and Tibble
+
+Data frame is the most important concept in R. It was unique when it was introduced. Later, the idea was brought into Python via the Pandas library. Still widely used data structure, data.frame has its one issues, which is beyond the scope of this course. To overcome some of those issues, tibble was introduced by Wickham et al. [-@wickham2018dplyr].
+
+### Data Frame
+
+Data frames are created using the `data.frame()` function by supplying a list of columns. data.frames, as it is typically referred to are of list data type with one important distinction. List can have elements of unequal length. In data.frame, all the elements must have the same length to make the data.frame a true rectangular array. 
+
+```{r}
+df = data.frame(
+  x = 1:5,
+  age = c(10, 11, 20, 30, 32),
+  sex = c('M', 'F', 'F', 'M', 'M')
+)
+df
+str(df)
+```
+
+We can create data.frame from a list as well.
+
+```{r}
+df_list = list(
+  x = 1:5,
+  age = c(10, 11, 20, 30, 32), 
+  sex = c('M', 'F', 'F', 'M', 'M')
+)
+df = data.frame(df_list)
+
+df
+
+```
+
+### Tibble
+
+For the most part, we as a user of dataframes won't notice the difference. All differences are under-the-hood. For those interested to learn two important distinctions between the two, please visit this [link](https://posit.co/blog/tibble-1-0-0/).
+
+We will revisit `tibbles` shortly.
+
+Do we care whether it's a `tibble` or a `data.frame`? For the most part, the answer is no. But the R ecosystem is evolving and newer libraries will likely use tibble as the default replacement for data.frame.
+
+
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+
