@@ -2,7 +2,7 @@
 
 Chasing Python is a collection of courses at [dataskool.org](https://dataskool.org/courses/python){target="_blank"} taught by Dr. Enayetur Raheem.
 
-## Books in this bundle 
+## Books in this bundle
 
 1. Step into Python (Python basics for data science)
 1. Numpy for scientific computation
