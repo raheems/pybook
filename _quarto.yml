@@ -1,6 +1,12 @@
 project:
   type: book
 
+website:
+  site-url: "https://pybook.eraheem.com"
+  google-analytics: "G-FLN6ZZ8SZZ"
+  twitter-card:
+    creator: "@eraheem"
+    
 book:
   title: "Chasing Python"
   subtitle: "Step into and run with Python for Data Science"
@@ -39,13 +45,9 @@ format:
   pdf:
     documentclass: scrreprt
 
-website:
-  site-url: "https://pybook.eraheem.com"
-  twitter-card:
-    creator: "@eraheem"
-  google-analytics: "G-FLN6ZZ8SZZ"
-body-header: | 
-  This is work in progress. 
+
+  
+
 
 bibliography: references.bib
 
