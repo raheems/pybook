@@ -1,11 +1,5 @@
 project:
   type: book
-
-website:
-  site-url: "https://pybook.eraheem.com"
-  google-analytics: "G-FLN6ZZ8SZZ"
-  twitter-card:
-    creator: "@eraheem"
     
 book:
   title: "Chasing Python"
@@ -14,6 +8,11 @@ book:
   author: "Enayetur Raheem"
   date:  "2023/07/24"
   cover-image: images/pybook-cover.png
+  
+  site-url: "https://pybook.eraheem.com"
+  google-analytics: "G-FLN6ZZ8SZZ"
+  twitter-card:
+    creator: "@eraheem"
 
   chapters:
     - index.qmd
